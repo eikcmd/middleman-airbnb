@@ -1,0 +1,39 @@
+.profile {
+  max-width: 75px;
+}
+.banner-show {
+  color: black;
+  text-align: center;
+  height: 380px;
+/* if you have a 70px navbar => height: calc(100vh - 70px); */
+background-size: cover !important;
+background-position: center;
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.container {
+  margin: 45px;
+  background-color: white;
+  display: flex;
+  h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    color: rgba(0,0,0,0.7);
+  }
+}
+
+.row {
+  display: flex;
+}
+
+.city-flats {
+  margin-left: 25%;
+}
+
+.form {
+  background-color: gray;
+}
