@@ -7,7 +7,7 @@
 
 </div>
 <!-- Inject flat data in template -->
-<div class="container">
+<div class="container-flats">
   <div class="row">
     <div class="city-flats">
       <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class: "img-circle profile" %>
@@ -18,15 +18,15 @@
       <p><%= flat.city_name %></p>
     </div>
   </div>
-  <div class="col-xs-12 col-sm-4">
-    <form action="#">
-      <h4>Book this flat</h4>
-      <div class="form">
+  <div class="col-xs-12 col-sm-4 formform">
+    <div class="form">
+      <form action="#">
+        <h4>Book this flat</h4>
         <div class="form-group">
           <div class="col-xs-6">
             <input type="text" class="form-control" placeholder="checkin" id="checkin">
           </div>
-          <div class="col-xs-6">
+          <div class="col-xs-6 formform">
             <input type="text" class="form-control" placeholder="checkout">
           </div>
         </div>
@@ -41,5 +41,5 @@
       </form>
     </div>
   </div>
-  </div>
+</div>
 </div>
